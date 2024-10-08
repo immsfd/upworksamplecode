@@ -1,7 +1,6 @@
-import Head from 'next/head'
+import Head from 'next/head';
 
 export default function Layout(props) {
-
   return (
     <>
       <Head>
@@ -9,11 +8,9 @@ export default function Layout(props) {
         <meta name="description" content="sample" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main>
-        <div>
-        {props.children}
-        </div>
+      <main> 
+          {props.children}
       </main>
     </>
-  )
+  );
 }
