@@ -4,7 +4,7 @@ export default function Document(props) {
   return (
     <Html>
       <Head />
-      <body className="min-h-screen">
+      <body >
         <Main/>
         <NextScript />
       </body>

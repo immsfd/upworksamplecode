@@ -1,7 +1,6 @@
-import Head from 'next/head'
+import Head from 'next/head';
 
 export default function Layout(props) {
-
   return (
     <>
       <Head>
@@ -10,10 +9,8 @@ export default function Layout(props) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main> 
-        <div>
-        {props.children}
-        </div>
+          {props.children}
       </main>
     </>
-  )
+  );
 }
